@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BaseApi.Data\BaseApi.Data.csproj" />
+    <ProjectReference Include="..\BaseApi.Models\BaseApi.Models.csproj" />
+    <ProjectReference Include="..\BaseApi.Utilities\BaseApi.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
